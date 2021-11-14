@@ -27,16 +27,16 @@
       Потому что есть ограничения систему по количеству передаваемых аргументов.
 6. [[-d /tmp]] проверяет наличие директории /tmp и возвращает 0 если нет 1 если есть.
 7.  Bash PATH:  
-    vagrant@vagrant:~$ type -a bash  
+    vagrant@vagrant:/$ type -a bash  
     bash is /usr/bin/bash  
     bash is /bin/bash  
-    vagrant@vagrant:~$ mkdir /tmp/new_path_dir/  
-    vagrant@vagrant:~$ cp /bin/bash /tmp/new_path_dir/  
-    vagrant@vagrant:~$ type -a bash  
+    vagrant@vagrant:/$ mkdir /tmp/new_path_dir/  
+    vagrant@vagrant:/$ cp /bin/bash /tmp/new_path_dir/  
+    vagrant@vagrant:/$ type -a bash  
     bash is /usr/bin/bash  
     bash is /bin/bash  
-    vagrant@vagrant:~$ PATH=/tmp/new_path_dir/:$PATH  
-    vagrant@vagrant:~$ type -a bash  
+    vagrant@vagrant:/$ PATH=/tmp/new_path_dir/:$PATH  
+    vagrant@vagrant:/$ type -a bash  
     bash is /tmp/new_path_dir/bash  
     bash is /usr/bin/bash  
     bash is /bin/bash  
