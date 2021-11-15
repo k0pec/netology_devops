@@ -17,9 +17,9 @@
    qwerty
    asdsads
    12345
-   vagrant@vagrant:~$ touch outline
-   vagrant@vagrant:~$ grep 12345 <inline >outline 
-   vagrant@vagrant:~$ cat outline
+   vagrant@vagrant:/$ touch outline
+   vagrant@vagrant:/$ grep 12345 <inline >outline 
+   vagrant@vagrant:/$ cat outline
    12345
 
 6. echo "Hello world!" > /dev/tty3  
