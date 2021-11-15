@@ -11,16 +11,16 @@
     root           1  0.0  1.1 101804 11132 ?        Ss   19:26   0:00 /sbin/init  
 
 4. ls /root 2>/dev/pts/1
-5. vagrant@vagrant:~$ touch inline
-   vagrant@vagrant:~$ nano inline
-   vagrant@vagrant:~$ cat inline
-   qwerty
-   asdsads
-   12345
-   vagrant@vagrant:/$ touch outline
-   vagrant@vagrant:/$ grep 12345 <inline >outline 
-   vagrant@vagrant:/$ cat outline
-   12345
+5. vagrant@vagrant:/$ touch inline  
+   vagrant@vagrant:/$ nano inline  
+   vagrant@vagrant:/$ cat inline  
+   qwerty  
+   asdsads  
+   12345  
+   vagrant@vagrant:/$ touch outline  
+   vagrant@vagrant:/$ grep 12345 <inline >outline   
+   vagrant@vagrant:/$ cat outline  
+   12345  
 
 6. echo "Hello world!" > /dev/tty3  
    Для просмотра вывода нужно переключиться Ctr+Alt+f3  
