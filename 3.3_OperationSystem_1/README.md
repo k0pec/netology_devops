@@ -32,9 +32,9 @@
     неопределенные перепенные считаются ошибками, а следовательно скрипт будет остановлен если они есть,   
     при выполнении с ошибкой, вернет состояние последней команды с ошибкой или 0 при выполнении всех команд.  
 9.  vagrant@vagrant:/$ ps -o stat  
-    STAT
-    Ss
-    R+
+    STAT  
+    Ss  
+    R+  
 
     S    interruptible sleep (waiting for an event to complete)  
     s    is a session leader  
