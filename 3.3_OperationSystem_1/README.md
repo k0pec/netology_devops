@@ -31,7 +31,7 @@
     Завершит скрипт, если какая либо команда выполниться с ошибкой, будет выводить ход выполнения скрипта,  
     неопределенные перепенные считаются ошибками, а следовательно скрипт будет остановлен если они есть,   
     при выполнении с ошибкой, вернет состояние последней команды с ошибкой или 0 при выполнении всех команд.  
-9.  vagrant@vagrant:~$ ps -o stat
+9.  vagrant@vagrant:/$ ps -o stat  
     STAT
     Ss
     R+
@@ -39,5 +39,5 @@
     S    interruptible sleep (waiting for an event to complete)  
     s    is a session leader  
     R    running or runnable (on run queue)  
-    +    is in the foreground process group
+    "\+"    is in the foreground process group
 
