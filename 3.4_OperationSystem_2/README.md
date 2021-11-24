@@ -1,17 +1,29 @@
 # 3.4 Operation System 2
 ## Home Work
-1.  sudo useradd --no-create-home --shell /bin/false node_exporter  
-    systemctl edit --full --force node_exporter.service  
-    [Unit]      
-    Description=Node Exporter    
-    [Service]  
-    ExecStart=/usr/local/bin/node_exporter  
-    EnvironmentFile=/etc/default/node_exporter  
-    [Install]  
-    WantedBy=default.target
-    touch /etc/default/node_exporter  
-    systemctl enable node_exporter.service  
-    systemctl start node_exporter.service   
+1.  systemctl edit --full --force node_exporter.service    
+    [Unit]
+    Description=Node Exporter
+    [Service]
+    EnvironmentFile=/etc/default/node_exporter
+    ExecStart=/usr/local/bin/node_exporter $OPTIONS
+    [Install]
+    WantedBy=default.target  
+      
+    nano /var/lib/node_exporter/textfile_collector
+    OPTIONS="--collector.textfile.directory /var/lib/node_exporter/textfile_collector"    
+
+    systemctl enable node_exporter.service    
+    systemctl start node_exporter.service    
+    vagrant@vagrant:/vagrant/node_exporter$ sudo systemctl status node_exporter.service  
+    ● node_exporter.service - Node Exporter  
+        Loaded: loaded (/etc/systemd/system/node_exporter.service; enabled; vendor preset: enabled)  
+        Active: active (running) since Wed 2021-11-24 17:27:02 UTC; 13s ago  
+        Main PID: 12780 (node_exporter)  
+            Tasks: 4 (limit: 1071)  
+            Memory: 2.3M  
+            CGroup: /system.slice/node_exporter.service  
+                    └─12780 /usr/local/bin/node_exporter --collector.textfile.directory /var/lib/node_exporter/textfile_collector  
+
 
 2.  CPU:  
     node_cpu_seconds_total{cpu="0",mode="idle"}  
