@@ -230,7 +230,7 @@
     LV Write Access        read/write  
     LV Creation host, time vagrant, 2021-11-24 20:18:35 +0000  
     LV Status              available  
-    # open                 0  
+     open                 0  
     LV Size                100.00 MiB  
     Current LE             25  
     Segments               1  
