@@ -1,13 +1,13 @@
 # 3.4 Operation System 2
 ## Home Work
 1.  systemctl edit --full --force node_exporter.service    
-    [Unit]
-    Description=Node Exporter
-    [Service]
-    EnvironmentFile=/etc/default/node_exporter
-    ExecStart=/usr/local/bin/node_exporter $OPTIONS
-    [Install]
-    WantedBy=default.target  
+    [Unit]  
+    Description=Node Exporter  
+    [Service]  
+    EnvironmentFile=/etc/default/node_exporter  
+    ExecStart=/usr/local/bin/node_exporter $OPTIONS  
+    [Install]  
+    WantedBy=default.target   
       
     nano /var/lib/node_exporter/textfile_collector
     OPTIONS="--collector.textfile.directory /var/lib/node_exporter/textfile_collector"    
