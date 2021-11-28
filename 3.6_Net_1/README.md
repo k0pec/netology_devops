@@ -21,7 +21,7 @@
     Connection closed by foreign host.  
     Получаем сообщение, что указанный ресурс перемещен на постоянной основе на адрес указанный в location.
 
-2.  
+2.      
     ![http](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page6.png)  
     ![timing](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page4.png)  
     ![headers](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page3.png)  
