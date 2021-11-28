@@ -23,8 +23,9 @@
 
 2.  Скриншоты:      
     ![http](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page6.png)  
-    ![timing](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page4.png)  
-    ![headers](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page3.png)  
+    ![headers](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page4.png)
+    ![timing](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page2.png)
+    ![timing-headers](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page3.png)  
 
 3.  k0pec@k0pec-ub:~/netology_devops$ wget -qO- icanhazip.com  
     178.141.153.95  
