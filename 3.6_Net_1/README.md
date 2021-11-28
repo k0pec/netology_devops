@@ -21,7 +21,8 @@
     Connection closed by foreign host.  
     Получаем сообщение, что указанный ресурс перемещен на постоянной основе на адрес указанный в location.
 
-2.  ![http](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page6.png)  
+2.  
+    ![http](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page6.png)  
     ![timing](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page4.png)  
     ![headers](https://github.com/k0pec/netology_devops/blob/main/3.6_Net_1/page3.png)  
 
@@ -133,11 +134,11 @@
     22. AS???    ???                                     100.0    10    0.0   0.0   0.0   0.0   0.0  
     23. AS15169  dns.google                               0.0%    10   29.0  35.2  28.8  47.7   6.2  
 
-7.  k0pec@k0pec-ub:~/netology_devops$ dig dns.google +noall +answer  
+7.  k0pec@k0pec-ub:/netology_devops$ dig dns.google +noall +answer  
     dns.google.		713	IN	A	8.8.4.4  
     dns.google.		713	IN	A	8.8.8.8  
 
-8.  k0pec@k0pec-ub:~/netology_devops$ dig -x 8.8.8.8 +noall +answer  
+8.  k0pec@k0pec-ub:/netology_devops$ dig -x 8.8.8.8 +noall +answer  
     8.8.8.8.in-addr.arpa.	5408	IN	PTR	dns.google.  
     k0pec@k0pec-ub:~/netology_devops$ dig -x 8.8.4.4 +noall +answer  
     4.4.8.8.in-addr.arpa.	62071	IN	PTR	dns.google.  
