@@ -1,4 +1,4 @@
-# 3.7 Net 1
+# 3.7 Net 2
 ## Home Work
 1.  ip a, ifconfig, ipconfig  
    
@@ -52,7 +52,7 @@
     HostMax:   100.64.0.62          01100100.01000000.00000000.00 111110  
     Broadcast: 100.64.0.63          01100100.01000000.00000000.00 111111  
     Hosts/Net: 62                    Class A  
-    
+
 7.  arp -a  
     sudo ip neigh flush all  
     arp -d
