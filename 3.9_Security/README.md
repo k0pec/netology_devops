@@ -110,12 +110,12 @@
         $ exit  
         Connection to 192.168.56.101 closed.  
 
-6.  k0pec@k0pec-ub:~$ cat .ssh/config
-    Host ubuntu-test
-    HostName 192.168.56.101
-    IdentityFile ~/.ssh/ubuntu-test
-    User mysshfriend
-    Protocol 2
+6.  k0pec@k0pec-ub:~$ cat .ssh/config  
+    Host ubuntu-test  
+    HostName 192.168.56.101  
+    IdentityFile ~/.ssh/ubuntu-test  
+    User mysshfriend  
+    Protocol 2  
 
         
 7.  k0pec@k0pec-ub:~/netology_devops$ sudo tcpdump -c 100 -w tcpdump_eno1.pcap -i eno1  
