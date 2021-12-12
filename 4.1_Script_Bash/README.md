@@ -61,8 +61,8 @@
         done   
     done    
 
-5.  k0pec@k0pec-ub:~/netology_devops/.git/hooks$ mv commit-msg.sample commit-msg  
-    k0pec@k0pec-ub:~/netology_devops/.git/hooks$ vim commit-msg  
+5.  k0pec@k0pec-ub:/netology_devops/.git/hooks$ mv commit-msg.sample commit-msg  
+    k0pec@k0pec-ub:/netology_devops/.git/hooks$ vim commit-msg  
 
     #!/usr/bin/env bash  
     commit_regex='(^\[04-script-01-bash\].*$)'  
