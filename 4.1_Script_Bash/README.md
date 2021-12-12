@@ -22,15 +22,15 @@
     #!/usr/bin/env bash
     while ((1==1))  
     do  
-    date > $d     
-    curl https://localhost:4757  
-    if (($? != 0))  
-    then  
-    echo 'Not Avalible' $d >> curl.log  
-    else  
-    echo 'Avalible' $d >> curl.log  
-    brake  
-    fi  
+        date > $d     
+        curl https://localhost:4757  
+        if (($? != 0))  
+        then  
+            echo 'Not Avalible' $d >> curl.log  
+        else  
+            echo 'Avalible' $d >> curl.log  
+            brake  
+        fi  
     done
     ```  
 
