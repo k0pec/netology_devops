@@ -1,7 +1,7 @@
 # Course Work
 1.  ![installed_ubuntu](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/installed_ubuntu.png)
 2.  ![ufw_enabled](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/ufw_enabled.png)
-3.  ![vault_enabled](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/vault_enabled.png)
+3.  ![vault_installed](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/vault_installed.png)
 4.  ![cert-720h](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/cert-720h.png)
 5.  ![rootCA-installed](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/rootCA-installed.png)
 6.  ![nginx](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/nginx.png)
