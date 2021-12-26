@@ -1,0 +1,12 @@
+# Course Work
+1.  ![installed_ubuntu](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/installed_ubuntu.png)
+2.  ![ufw_enabled](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/ufw_enabled.png)
+3.  ![vault_enabled](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/vault_enabled.png)
+4.  ![cert-720h](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/cert-720h.png)
+5.  ![rootCA-installed](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/rootCA-installed.png)
+6.  ![nginx](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/nginx.png)
+7.  ![nginx-conf.d](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/nginx-conf.d.png)
+8.  ![win10](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/win10.png)
+    ![win_crt](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/win_crt.png)
+9.  ![script](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/script.png)
+10. ![cron](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/cron.png)

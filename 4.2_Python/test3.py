@@ -15,7 +15,6 @@ while 1==1 :
     if ip != srv[host]:
         print(str('[ERROR] ' + str(host) + ' IP mistmatch: ' + srv[host] + ' ' + ip))
     srv[host]=ip
-  
     with open("srv.json",'w') as jsf:
       json_data= json.dumps(srv)
       jsf.write(json_data)
