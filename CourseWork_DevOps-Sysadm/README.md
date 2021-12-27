@@ -9,4 +9,5 @@
 8.  ![win10](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/win10.png)
     ![win_crt](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/win_crt.png)
 9.  ![script](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/script.png)
-10. ![cron](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/cron.png)
+10. ![crontab](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/crontab.png)
+    ![cron-log](https://github.com/k0pec/netology_devops/blob/main/CourseWork_DevOps-Sysadm/cron-log.png)
