@@ -1,4 +1,2 @@
-[nodes:children]
-manager
-[manager]
+[node]
 server1.netology ansible_host=127.0.0.1 ansible_port=20011 ansible_user=vagrant
