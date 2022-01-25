@@ -30,5 +30,5 @@ ansible 2.9.6
   executable location = /usr/bin/ansible
   python version = 3.8.10 (default, Nov 26 2021, 20:14:08) [GCC 9.3.0]
 ```
-4. ***Выполнение playbook***
-    ![ansible-playbook](https://github.com/k0pec/netology_devops/blob/main/5.2_Virt_IaaC/ansible.png)
+4. ***Выполнение playbook***  
+![ansible-playbook](https://github.com/k0pec/netology_devops/blob/main/5.2_Virt_IaaC/ansible.png)
