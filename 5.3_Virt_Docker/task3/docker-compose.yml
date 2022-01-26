@@ -1,0 +1,13 @@
+---
+version: "3"
+services:
+  centos:
+    image: centos
+    volumes:
+      - ./:/data/
+    tty: true
+  debian:
+    image: debian
+    volumes:
+      - ./:/data/
+    tty: true
