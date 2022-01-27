@@ -87,9 +87,9 @@
     root@d029223ed699:/data#
     ```
 4. ***Сборка образа из лекции***  
-  <code>
-   [konstantinpe4enkin](https://hub.docker.com/u/konstantinpe4enkin)
-  </code>  
+     <code>
+      [konstantinpe4enkin](https://hub.docker.com/u/konstantinpe4enkin)
+     </code>  
 
       ```dockerfile
       FROM alpine:3.14
