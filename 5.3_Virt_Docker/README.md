@@ -86,7 +86,7 @@
     centos	centos.txt  data  debian  docker-compose.yml
     root@d029223ed699:/data#
     ```
-4. ***Сборка образа из лекции***
+4. ***Сборка образа из лекции***  
   <code>
    [konstantinpe4enkin](https://hub.docker.com/u/konstantinpe4enkin)
   </code>  
