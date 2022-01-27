@@ -91,7 +91,7 @@
    [konstantinpe4enkin](https://hub.docker.com/u/konstantinpe4enkin)
   </code>  
 
-    ```
+      ```dockerfile
       FROM alpine:3.14
       RUN CARGO_NET_GIT_FETCH_WITH_CLI=1 && \
         apk --no-cache add \
@@ -114,8 +114,8 @@
         echo 'localhost' > /etc/ansible/hosts
       WORKDIR /ansible
       CMD [ "ansible-playbook", "--version" ]
-    ```  
-    ```bash
+      ```  
+      ```bash
       k0pec@k0pec-ub:~/netology_devops/5.3_Virt_Docker/task4$ DOCKER_BUILDKIT=0 docker build -t konstantinpe4enkin/ansible:2.9.24 .
       Sending build context to Docker daemon   2.56kB
       Step 1/5 : FROM alpine:3.14
@@ -134,6 +134,4 @@
       ---> 8820059e4469
       Successfully built 8820059e4469
       Successfully tagged konstantinpe4enkin/ansible:2.9.24
-    ```
- 
-_
+      ```     
