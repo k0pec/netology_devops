@@ -114,7 +114,7 @@
         echo 'localhost' > /etc/ansible/hosts
       WORKDIR /ansible
       CMD [ "ansible-playbook", "--version" ]
-    ```
+    ```  
     ```bash
       k0pec@k0pec-ub:~/netology_devops/5.3_Virt_Docker/task4$ DOCKER_BUILDKIT=0 docker build -t konstantinpe4enkin/ansible:2.9.24 .
       Sending build context to Docker daemon   2.56kB
