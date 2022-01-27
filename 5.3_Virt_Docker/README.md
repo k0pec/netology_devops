@@ -90,8 +90,8 @@
   <code>
    [konstantinpe4enkin](https://hub.docker.com/u/konstantinpe4enkin)
   </code>  
-  
-    ```dockerfile
+
+    ```
       FROM alpine:3.14
       RUN CARGO_NET_GIT_FETCH_WITH_CLI=1 && \
         apk --no-cache add \
