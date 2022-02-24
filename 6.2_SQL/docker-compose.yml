@@ -4,7 +4,10 @@ services:
   postgres:
     image: postgres:12
     volumes:
+<<<<<<< HEAD
       - ./init/ :/docker-entrypoint-initdb.d/
+=======
+>>>>>>> ef23457b1f7abbfbaa0a9604cc61d9c1b6d8d01f
       - ./db/   :/data/db/
       - ./back/ :/data/back/
     tty: true
@@ -13,9 +16,17 @@ services:
       POSTGRES_PASSWORD: example
       PGDATA: /data/db
   
+<<<<<<< HEAD
   adminer:
     image: adminer
     restart: always
     ports:
       - 8080:8080
+=======
+  #adminer:
+  #  image: adminer
+  #  restart: always
+  #  ports:
+  #    - 8080:8080
+>>>>>>> ef23457b1f7abbfbaa0a9604cc61d9c1b6d8d01f
   
