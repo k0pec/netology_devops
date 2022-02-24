@@ -1,0 +1,21 @@
+---
+version: "3"
+services:
+  postgres:
+    image: postgres:12
+    volumes:
+      - ./init/ :/docker-entrypoint-initdb.d/
+      - ./db/   :/data/db/
+      - ./back/ :/data/back/
+    tty: true
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      PGDATA: /data/db
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+  
