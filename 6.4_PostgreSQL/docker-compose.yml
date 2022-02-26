@@ -1,0 +1,14 @@
+---
+version: "3"
+services:
+  postgres:
+    image: postgres:13
+    volumes:
+      - ./db/   :/data/db/
+      - ./back/ :/data/back/
+    tty: true
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      PGDATA: /data/db
+  
