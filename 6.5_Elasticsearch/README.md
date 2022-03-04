@@ -53,6 +53,8 @@
         "tagline" : "You Know, for Search"
         }
     ```
+    - [konstantinpe4enkin](https://hub.docker.com/repository/docker/konstantinpe4enkin/es)
+  
 +   **``Task 2``**
     ```bash
         curl -X PUT localhost:9200/ind-1 -H 'Content-Type: application/json' -d'{ "settings": { "number_of_shards": 1,  "number_of_replicas": 0 }}'
