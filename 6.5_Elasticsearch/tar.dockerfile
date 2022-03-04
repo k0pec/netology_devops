@@ -12,7 +12,7 @@ RUN shasum -a 512 -c elasticsearch-8.0.1-linux-x86_64.tar.gz.sha512 \
     && tar -xzf elasticsearch-8.0.1-linux-x86_64.tar.gz \
     && yum upgrade -y
     
-#ADD elasticsearch.yml /elasticsearch-8.0.1/config/
+ADD elasticsearch.yml /elasticsearch-8.0.1/config/
 ENV JAVA_HOME=/elasticsearch-8.0.1/jdk/
 ENV ES_HOME=/elasticsearch-8.0.1
 RUN groupadd elasticsearch \
