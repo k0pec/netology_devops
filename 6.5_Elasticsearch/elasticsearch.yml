@@ -21,7 +21,7 @@ discovery.type: single-node
 #
 # Use a descriptive name for the node:
 #
-#node.name: node-1
+node.name: es
 #
 # Add custom attributes to the node:
 #
