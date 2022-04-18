@@ -267,4 +267,4 @@
     ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 ***Task 12***  
-
+https://github.com/k0pec/netology_devops/tree/main/8.1_Ansible_intro
