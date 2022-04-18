@@ -49,7 +49,7 @@
     localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 ***Task 3***
-    Ok
+    Ok  
 ***Task 4***
 ```bash
     14:52:47 test@upc(0):~/devops-ansible/1$ ansible-playbook -i inventory/prod.yml site.yml 
