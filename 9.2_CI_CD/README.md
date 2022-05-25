@@ -94,7 +94,7 @@
         INFO: Final Memory: 71M/244M
         INFO: ------------------------------------------------------------------------
 ```
-[sonarqube_fail.py]()
+[sonarqube_fail.py](https://github.com/k0pec/netology_devops/blob/main/9.2_CI_CD/sonar_1.png)
 ```bash
         k0pec@k0pec-ub:~/sonarqube-example$ sonar-scanner -Dsonar.coverage.exclusions=fail.py -Dsonar.login=a94d43ee9b4bf3d632f736a4c81b57f8b584cb50 -Dsonar.projectKey=mytest
         INFO: Scanner configuration file: /home/k0pec/sonar-scanner/conf/sonar-scanner.properties
@@ -186,15 +186,15 @@
         INFO: Final Memory: 70M/240M
         INFO: ------------------------------------------------------------------------
 ```
-[fail.py_fix]()  
-[sonarqube_fail.py_fix]()  
+[fail.py_fix](https://github.com/k0pec/netology_devops/blob/main/9.2_CI_CD/fail.py)  
+[sonarqube_fail.py_fix](https://github.com/k0pec/netology_devops/blob/main/9.2_CI_CD/sonar_2.png)  
 
 ***Task 2***
 ### Nexus
 
-[nexus]()
+[nexus](https://github.com/k0pec/netology_devops/blob/main/9.2_CI_CD/nexus.png)
 
-[maven-metadata.xml]()   
+[maven-metadata.xml](https://github.com/k0pec/netology_devops/blob/main/9.2_CI_CD/maven-metadata.xml)   
 
 ***Task 3***
 ### Maven
@@ -256,3 +256,4 @@
       -rw-rw-r-- 1 k0pec k0pec  382 мая 25 22:13 java-8_282.pom.lastUpdated
       -rw-rw-r-- 1 k0pec k0pec  175 мая 25 22:13 _remote.repositories
 ```
+[pom.xml](https://github.com/k0pec/netology_devops/blob/main/9.2_CI_CD/pom.xml)
