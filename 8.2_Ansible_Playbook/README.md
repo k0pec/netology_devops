@@ -339,4 +339,4 @@ ___PLAY___
    - создание по шаблону переменных окружений (templates)
 
 ### ***ссылка на playbook***
-[playbook]()
+[playbook](https://github.com/k0pec/netology_devops/tree/main/8.2_Ansible_Playbook/playbook)
