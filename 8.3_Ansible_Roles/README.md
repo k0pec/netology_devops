@@ -280,7 +280,7 @@
 
 
 #### ***Cсылки на репозитории***
-[java-role](https://github.com/k0pec/java-role/tree/master)
-[elastic-role](https://github.com/k0pec/elastic-role/tree/master)
-[kibana-role](https://github.com/k0pec/kibana-role/tree/master)
+[java-role](https://github.com/k0pec/java-role/tree/master)  
+[elastic-role](https://github.com/k0pec/elastic-role/tree/master)  
+[kibana-role](https://github.com/k0pec/kibana-role/tree/master)  
 [playbook](https://github.com/k0pec/playbook/tree/master)
