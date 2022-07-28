@@ -1,0 +1,68 @@
+server_tokens off;
+
+server {
+    listen 80;
+    server_name {{ domain_name }};
+
+    location /.well-known/acme-challenge {
+        root /var/www/letsencrypt;
+        try_files $uri $uri/ =404;
+    }
+
+    location / {
+        rewrite ^ https://{{ domain_name }}$request_uri? permanent;
+    }
+}
+
+server {
+    listen 80;
+    server_name gitlab.pe4enki2n.space;
+
+    location /.well-known/acme-challenge {
+        root /var/www/letsencrypt;
+        try_files $uri $uri/ =404;
+    }
+
+    location / {
+        rewrite ^ https://gitlab.pe4enki2n.space$request_uri? permanent;
+    }
+}
+server {
+    listen 80;
+    server_name grafana.pe4enki2n.space;
+
+    location /.well-known/acme-challenge {
+        root /var/www/letsencrypt;
+        try_files $uri $uri/ =404;
+    }
+
+    location / {
+        rewrite ^ https://grafana.pe4enki2n.space$request_uri? permanent;
+    }
+}
+server {
+    listen 80;
+    server_name prometheus.pe4enki2n.space;
+
+    location /.well-known/acme-challenge {
+        root /var/www/letsencrypt;
+        try_files $uri $uri/ =404;
+    }
+
+    location / {
+        rewrite ^ https://prometheus.pe4enki2n.space$request_uri? permanent;
+    }
+}
+server {
+    listen 80;
+    server_name alertmanager.pe4enki2n.space;
+
+    location /.well-known/acme-challenge {
+        root /var/www/letsencrypt;
+        try_files $uri $uri/ =404;
+    }
+
+    location / {
+        rewrite ^ https://alertmanager.pe4enki2n.space$request_uri? permanent;
+    }
+}
